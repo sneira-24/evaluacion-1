@@ -5,6 +5,7 @@
 html {
   font-family: sans-serif;
   font-size: 80%;
+  scroll-behavior: smooth;
 }
 
 .section-in-main {
@@ -89,6 +90,8 @@ main {
   display: flex;
   justify-content: space-between;
   height: 750px;
+  margin-top: 0.6%;
+  margin-bottom: 0.6%;
 }
 
 #fig-div {
@@ -145,7 +148,6 @@ input {
   height: 100px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-
 }
 
 #h3-servicios {
@@ -157,4 +159,129 @@ input {
   font-size: 1.3em;
   text-decoration: none;
   color: black;
+  font-weight: bold;
+}
+
+#seguridad-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  flex-direction: row;
+}
+
+#seguridad-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#seguridad-div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.h3-seguridad {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.h4-seguridad {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#foot-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 400px;
+  background-color: #454749;
+}
+
+#foot1-div-1 {
+  gap: 5rem;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 70%;
+  justify-content: space-between;
+}
+
+.filas-div-1 {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.h3-footer {
+  font-size: 1.4rem;
+  margin-top: 0
+}
+
+.a-footer {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-app-img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+}
+
+#foot1-div-2 {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footer-rss-img {
+  width: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
+#last-section {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #FFE24C;
+  justify-content: center;
+}
+
+#last-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.last-text {
+  margin: 0.1rem;
+  font-size:1.4rem;
+  text-align: center;
 }
