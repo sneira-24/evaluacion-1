@@ -8,29 +8,55 @@
 </head>
 <body>
     <header id = 'header'>
-        <h1 id = "header-h1">BioBio Descubre</h1>
+        <h1 id = "header-h1">BioBío Descubre</h1>
         <nav id = 'nav-bar'>
             <ul>
-                <li><a class = 'nav-link' >Emprendedores locales</a></li>
-                <li><a class = 'nav-link' >Guias turisticos</a></li>
-                <li><a class = 'nav-link' >Alojamiento</a></li>
+                <li><a class = 'nav-link' href="">Quiénes somos</a></li>
+                <li><a class = 'nav-link' href="" >Empresas</a></li>
+                <li><a class = 'nav-link' href="">Canales de atención</a></li>
             </ul>
         </nav>
         <section id='buttons'>
             <div class='header-button'>
                 <button class='btn header-button-left'>
-                <h2>Iniciar Sesión</h2>
+                    <a class = "a-button" href="">Iniciar Sesión</a>
                 </button>
             </div>
             <div class='header-button'>
                 <button class='btn header-button-right'>
-                <h2>Registrarse</h2>
+                    <a class="a-button" href="">Registrarse</a>
                 </button>
             </div>
         </section>
     </header>
-    <main>
-
+    <main id = "main">
+        <section class="section-in-main" id="main-section">
+            <div id = 'fig-div'>
+                <img id ='img-1' src = 'https://chileestuyo.cl/wp-content/uploads/2026/02/Saltos-del-Laja.jpg' alt="Region del Bio Bio"/>
+            </div>
+            <div id = 'descarga-div'>
+                <h2 class = "h2-main">Empieza a disfrutar las maravillas de la 8va región</h2>
+                <h3 class = "h3-main">Buscas alguna comuna en específico?</h3>
+                <form id="form" action="">
+                    <nav>
+                        <input type="text" placeholder="Busca por comuna"/>
+                        <ul id = "form-ul">
+                            <li class="form-nav-li"><a class = "nav-link" href="">Todas</a></li>
+                            <li class="form-nav-li"><a class = "nav-link" href="">Más populares</a></li>
+                        </ul>   
+                    </nav>
+                </form>
+            </div>
+        </section>
+        <section class= "section-in-main" id="servicios-section">
+            <h3 id="h3-servicios">Conoce nuestros servicios</h3>
+            <a class="a-servicios" href="">Emprendimientos locales</a>
+            <a class="a-servicios" href="">Guías turísticos</a>
+            <a class="a-servicios" href="">Alojamientos ecológicos</a>
+            <button class='btn header-button-left'>
+                <a class="a-button" href="">Descarga la aplicación</a>
+            </button>
+        </section>
     </main>
 </body>
 </html>
